@@ -1,52 +1,30 @@
-# 💰 Personal Finance Dashboard in Excel
+# Personal Finance Dashboard
 
-An interactive **Budget, Expense & Savings Tracker** built entirely in Excel.  
-This project helps individuals manage their personal finances with **dynamic KPIs, charts, and slicers** — no external tools required.
+An Excel practice dashboard that presents income, expenses, savings, budgets, and account views in one workbook. The repository includes a dashboard screenshot and an Excel workbook.
 
----
+## Preview
 
-## 🚀 Features
-- 📊 **KPI Cards**: Income, Expenses, Net Savings, Savings Rate, Budget Utilization, Current Balance
-- 📈 **Interactive Charts**:
-  - Monthly Income vs Expenses (Line Chart)
-  - Expense by Category (Donut Chart)
-  - Savings Goals (Column Chart)
-  - Bank Account Transactions (Waterfall Chart)
-  - Account Balances (Pie Chart)
-  - Budget vs Actual (Comparative Column Chart)
-  - Payment Methods (Bar Chart)
-- 🎛️ **Slicers & Filters**: Month and Account for dynamic analysis
-- 🔄 **One‑Click Refresh**: VBA macro button to update all pivots & charts
+![Personal Finance Dashboard preview](Dashboard.png)
 
----
+## Files
 
-## 🛠️ Tech Stack
-- **Excel Tables & Pivot Tables**
-- **Charts & Slicers**
-- **Conditional Formatting**
-- **VBA Macros (for automation)**
+- [Excel dashboard workbook](Dashboard/Personal-Finance-Dashboard.xlsx)
+- [Dashboard screenshot](Dashboard.png)
 
----
+The workbook is an `.xlsx` file. The repository does not include the separately named `Sample_Data.xlsx` referenced in the earlier README, and no VBA macro file or macro-enabled workbook is present. The previous one-click VBA refresh claim is therefore removed.
 
-## 📷 Dashboard Preview
-*(Insert screenshots of your dashboard here — Income vs Expenses chart, KPI cards, etc.)*
+## Dashboard shown
+
+The screenshot displays KPI cards for income, expenses, net savings, savings rate, budget utilization, and balance, alongside monthly income and expense trends, category breakdowns, savings goals, bank transaction counts, account views, budget comparisons, and payment methods. It also shows month and account filters. These are dashboard contents in the provided screenshot; values are illustrative workbook data and are not a claim about anyone's real finances or a measured business outcome.
+
+## Data and reproducibility
+
+The repository contains the workbook but no separate sample-data file or data provenance note. The workbook's source data, formulas, and refresh behavior have not been independently audited. To review the project, download the workbook and open it in a compatible spreadsheet application. Recalculation and filter behavior may depend on the application and workbook configuration.
+
+## Tools represented
+
+Microsoft Excel workbook with charts and interactive filters, as represented in the screenshot. Specific formulas, PivotTable setup, and automation should be documented only after validating them in the workbook.
 
 ---
 
-## 📂 Project Files
-- `Personal_Finance_Dashboard.xlsx` → Main dashboard file
-- `Sample_Data.xlsx` → Example dataset for testing
-- `README.md` → Documentation
-
----
-
-## 🎯 Outcomes
-- Track **income, expenses, savings, budgets, and payment methods** in real time
-- Gain **visual insights** with interactive charts
-- Automate updates with a single click
-
----
-
-## 📫 Connect with Me
-- 💼 [LinkedIn](https://linkedin.com/in/harshmeena9977)
-- 📧 Email: harshmeena9977@gmail.com
+Independent practice project; not financial advice or client work.
